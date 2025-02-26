@@ -55,28 +55,15 @@ body {
 .terminal-content {
     margin-top: 30px;
 }
-
+.command-text {
+    color: var(--terminal-text);
+}
 a {
-    color: var(--terminal-highlight);
+    color: cyan;
     text-decoration: none;
-    transition: all 0.3s ease;
 }
 
-a:hover {
-    text-decoration: underline;
-    color: #FFF;
-}
-
-.command-line {
-    display: flex;
-    margin: 10px 0;
-}
-
-.prompt {
-    color: var(--terminal-highlight);
-    margin-right: 10px;
-}
-
+/* Remove or comment out any typing-animation related CSS */
 .typing-animation {
     overflow: hidden;
     border-right: 2px solid var(--terminal-text);
